@@ -8,7 +8,7 @@ export default {
     // 判断路径是否为空
     if (!path) {
       // 路径为空，将 bytes 赋值为 100MB
-      bytes = 100000000;
+      bytes = 99999999;
     } else if (path === "locations") {
       return locations_cn(request);
     } else if (path === "cdn-cgi/trace") {
